@@ -14,7 +14,6 @@
 #include <boost/parameter/keyword.hpp>
 #include <boost/parameter/name.hpp>
 #include <boost/parameter/preprocessor.hpp>
-
 #include <boost/parameter.hpp>
 #include <boost/mpl/placeholders.hpp>
 

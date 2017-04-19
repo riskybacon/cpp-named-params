@@ -2,7 +2,6 @@
 #define BOOST_TEST_MODULE "constructor_named_values"
 
 #include <boost/test/unit_test.hpp>
-#include <iostream>
 #include <cpp_named_params/constructor_named_params.hpp>
 
 BOOST_AUTO_TEST_CASE(test_named_values) {
