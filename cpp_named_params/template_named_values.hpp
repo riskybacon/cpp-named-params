@@ -6,8 +6,8 @@
  *
  * Limitation: it appears that a maximum of 8 template parameters can be used.
  */
-#ifndef NAMED_VALUES_HPP_
-#define NAMED_VALUES_HPP_
+#ifndef TEMPLATE_NAMED_VALUES_HPP_
+#define TEMPLATE_NAMED_VALUES_HPP_
 
 #include <ratio>
 
@@ -18,7 +18,7 @@
 #include <boost/parameter.hpp>
 #include <boost/mpl/placeholders.hpp>
 
-#include <include/template_named_value_macros.hpp>
+#include <cpp_named_params/template_named_value_macros.hpp>
 
 using boost::mpl::placeholders::_;
 using boost::parameter::parameters;
@@ -26,7 +26,7 @@ using boost::parameter::required;
 using boost::parameter::optional;
 using boost::parameter::void_;
 
-namespace example {
+namespace rb {
 
 // Create the keywords
 PARAMETER_TEMPLATE_KEYWORD_SIZE(width)
@@ -40,9 +40,13 @@ using rectangle_signature = parameters<
     required<tag::scale, std::is_object<_>>
 >;
 
+/**
+ * Rectangle that has width, height and scale. Area is computed at compile
+ * time.
+ */
 template <class A, class B, class C>
 struct rectangle {
-    using args = typename example::rectangle_signature::bind<
+    using args = typename rb::rectangle_signature::bind<
         A, B, C
     >::type;
 
@@ -77,7 +81,8 @@ struct rectangle {
 
     /**
      * The area of the rectangle. The return value is calculated at compile
-     * time. This is enforced by constexpr.
+     * time. The compile time calculation is guaranteed by the constexpr
+     * keyword.
      *
      * @return the area of the rectangle
      */
@@ -87,6 +92,6 @@ struct rectangle {
     }
 };
 
-} // namespace example
+} // namespace rb
 
-#endif /* end of include guard: NAMED_VALUES_HPP_ */
+#endif /* end of include guard: TEMPLATE_NAMED_VALUES_HPP_ */

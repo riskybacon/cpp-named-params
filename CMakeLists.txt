@@ -1,7 +1,7 @@
 # Require at least version 2.8 of CMake
 cmake_minimum_required(VERSION 2.8)
 
-set(PROJ_NAME named_template_parameters)
+set(PROJ_NAME cpp_named_params)
 
 # The project name. A project can have multiple targets
 project(${PROJ_NAME})

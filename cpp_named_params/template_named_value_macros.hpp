@@ -10,7 +10,9 @@ struct size_value {
 };
 
 /**
- * Macro to simplify the creation of template keyword tags that refer to size
+ * Macro to create template keyword tags that refer to size.
+ *
+ * @param keyword  the name of the keyword
  */
 #define PARAMETER_TEMPLATE_KEYWORD_SIZE(keyword)                             \
 namespace tag { struct keyword; }                                            \
