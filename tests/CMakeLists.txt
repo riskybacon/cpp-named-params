@@ -3,7 +3,8 @@ cmake_minimum_required(VERSION 2.8)
 enable_testing()
 
 set(TESTS
-    constructor_named_params
+    function
+    constructor
     template_named_values
 )
 
