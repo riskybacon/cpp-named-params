@@ -60,8 +60,6 @@ I ended up not using the Boost Parameter library.
 
 # Links
 
-[Bring named parameters in modern C++]
-(https://marcoarena.wordpress.com/2014/12/16/bring-named-parameters-in-modern-cpp/)
+[Bring named parameters in modern C++](https://marcoarena.wordpress.com/2014/12/16/bring-named-parameters-in-modern-cpp/)
 
-[Named Parameter Idiom using Method Chaining]
-(https://web-beta.archive.org/web/20140106052713/http://www.parashift.com/c++-faq-lite/named-parameter-idiom.html)
+[Named Parameter Idiom using Method Chaining](https://web-beta.archive.org/web/20140106052713/http://www.parashift.com/c++-faq-lite/named-parameter-idiom.html)
