@@ -38,3 +38,23 @@ make
 cd tests
 ctest
 ```
+
+# Motivation
+
+I would like to improve the readability of function calls and constructors that
+take a large number of arguments. I have used named parameters in Python and
+decided to try out the
+[Boost Parameter](http://www.boost.org/doc/libs/1_64_0/libs/parameter/)
+library. I find that I need simple, complete examples to get started, and did
+not see this in the library's documentation.
+
+After a bit of work, these are the examples I came up with. I hope they help
+you get started with the Boost Parameter library.
+
+# Findings
+
+I decided not to use the Boost Parameter library. I found it to be limited to
+a total of 8 parameters. I did not see this limitation documented. Perhaps I
+did not look hard enough. Perhaps the compiler I was using (clang 3.9.0)
+introduced the limitation. Regardless, I needed more than eight parameters and
+decided to look for other ways to get the readability I was after.
