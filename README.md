@@ -47,11 +47,12 @@ parameters in Python and decided to try out the
 [Boost Parameter](http://www.boost.org/doc/libs/1_64_0/libs/parameter/)
 library.
 
-These are some simple examples I created to get me started.
+These are some simple examples I wrote so that I could understand the
+tutorial for this library.
 
 # Findings
 
-Only 8 parameters are allowed. When I was looking at this library, I was
+Only 8 parameters are allowed. When I was considering this library, I was
 working on a machine learning project and needed upwards of 10 parameters
 when calling a constructor.
 
