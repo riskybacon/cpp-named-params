@@ -19,10 +19,10 @@ resulting APIs will look like. Then start looking at the implementation.
 
 The intended order:
 
-* tests/function.cpp: demonstrates named parameters for a function call
-* tests/constructor.cpp: demonstrates named parameters in a constructor
-* tests/template_named_types.cpp: named template parameters for a class
-* tests/template_named_values.cpp: named template values for a class
+* ```tests/function.cpp``` demonstrates named parameters for a function call
+* ```tests/constructor.cpp``` demonstrates named parameters in a constructor
+* ```tests/template_named_types.cpp``` named template parameters for a class
+* ```tests/template_named_values.cpp``` named template values for a class
 
 # Building and Running
 
