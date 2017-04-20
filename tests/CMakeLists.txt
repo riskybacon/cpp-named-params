@@ -5,6 +5,7 @@ enable_testing()
 set(TESTS
     function
     constructor
+    template_named_types
     template_named_values
 )
 
