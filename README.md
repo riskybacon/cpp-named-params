@@ -58,3 +58,7 @@ a total of 8 parameters. I did not see this limitation documented. Perhaps I
 did not look hard enough. Perhaps the compiler I was using (clang 3.9.0)
 introduced the limitation. Regardless, I needed more than eight parameters and
 decided to look for other ways to get the readability I was after.
+
+# Links
+
+I found some good ideas in the blog post [Bring named parameters in modern C++](https://marcoarena.wordpress.com/2014/12/16/bring-named-parameters-in-modern-cpp/)
