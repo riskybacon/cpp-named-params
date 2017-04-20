@@ -48,7 +48,7 @@ parameters in Python and decided to try out the
 library.
 
 These are some simple examples I wrote so that I could understand the
-tutorial for this library.
+[tutorial](http://www.boost.org/doc/libs/1_64_0/libs/parameter/doc/html/index.html#tutorial).
 
 # Findings
 
