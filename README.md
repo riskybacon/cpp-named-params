@@ -31,6 +31,8 @@ These examples rely on [Boost](http://www.boost.org) and
 building and running. Once those are installed, build and run the tests with:
 
 ```
+git@github.com:riskybacon/cpp-named-params.git
+cd cpp-named-params
 mkdir build
 cd build
 cmake ..
@@ -53,10 +55,10 @@ These are some simple examples I wrote so that I could understand the
 # Findings
 
 Only 8 parameters are allowed. When I was considering this library, I was
-working on a machine learning project and needed upwards of 10 parameters
-when calling a constructor.
+working on a machine learning project and needed upwards of 10 parameters.
 
-I ended up not using the Boost Parameter library.
+I decided not to use the Boost Parameter library and instead used a
+configuration structure and method chaining.
 
 # Links
 
